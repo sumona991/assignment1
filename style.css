@@ -1,0 +1,266 @@
+body{
+    font-family: 'Merriweather', serif;
+   
+}
+
+
+.banner-card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(0.4);
+}
+.banner-card img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.banner-text{
+    position: absolute;
+     top:0%;
+    color: #FFF;
+text-align: center;
+font-size: 32px;
+width:100%;
+margin-top:70px;
+
+}
+.second{
+    text-align: center;
+}
+.second img{
+    width: 400px;
+height: 300px;
+flex-shrink: 0;
+}
+p{
+    font-family: none;
+}
+.red{
+    color: #F00;
+}
+.banner-2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-2 img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+    filter: brightness(0.4);
+    
+}
+.banner-text-2{
+    position: absolute;
+     top:50%;
+}
+#color{
+    color: #FFF;
+}
+.btn{
+    background-color: black;
+    color: #FFF;
+text-align: center;
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+border: 0px;  
+background: transparent; 
+
+    
+}
+/* eta niye kichu question achey =1  */
+.div-back{
+background-color: snow;
+ width: 1320px;
+ height: 482px;
+ flex-shrink: 0;
+ margin-top: 70px;
+ margin-left: 250px;
+ display: flex;
+ justify-content: center;
+align-items: center;
+border-radius: 5%;
+margin-bottom: 100px;
+}
+.same{
+    text-align: center;
+}
+.btn-2{
+    color: #FFF;
+    background-color: #F00;
+    border: 0px;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 32px;
+    margin-left: 30%;
+    border-radius: 5%;
+}
+.things-3{
+    display: flex;
+    margin: 0px 250px;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 1600px;
+/* height: 7335px; */
+background: #FFF;
+width: 1320px;
+    
+}
+.elipse{
+    width: 364.844px;
+height: 364.844px;
+flex-shrink: 0;
+border-radius: 364.844px;
+
+border: 8px solid red;
+ padding: 15px; 
+}
+.margin{
+    margin-left: 100px;
+}
+.margin-1{
+    margin-left: 150px;
+}
+
+/* eta niye kichu question achey=1  */
+.new{
+    width: 1320px;
+    background: #FFF;
+    height: 200px;
+    margin-top: 70px;
+    display: block;
+ justify-content: center;
+align-items: center;
+text-align: center;
+border-radius: 5%;
+margin-bottom: 100px;
+/* border: 10px solid red; */
+margin-left: 250px;
+}
+.font{
+ font-size: 45px; 
+font-style: normal;
+
+
+}
+.pictures{
+    margin-top: 70px;
+    margin-left: 250px;
+    width: 1320px;
+
+}
+.img-3{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.img-3 img{
+    width: 350px;
+height: 350px;
+flex-shrink: 0;
+margin-right: 22px;
+
+
+}
+
+.img-3 img:hover{
+    box-shadow: 10px 10px 60px 10px black;
+}
+.last{
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+display: block;
+text-align: center;
+margin: 100px 250px;
+padding-bottom: 100px;
+
+}
+#im{
+    width: 150px;
+height: 150px;
+flex-shrink: 0;
+}
+.subs{
+    
+    display: flex;
+  /* justify-content: space-between;  */
+     align-items: center; 
+    text-align: center;
+    margin-left:500px;
+    height: 42px; 
+    flex-shrink: 0;
+
+    
+}
+#form{
+    outline: none;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+   padding: 20px 20px;
+   
+}
+#button{
+    outline: none;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+   padding: 20px 20px;
+   color: #FFF;
+  
+}
+   
+
+
+
+
+
+/* Footer Styles */
+footer{
+    display: flex;
+    background: black;
+    
+    
+    gap: 100px;
+    color: #FFF;
+    width: 100%;
+height: 400px;
+flex-shrink: 0;
+}
+
+ 
+.foot{ 
+     width: 100%;
+ } 
+ #fotpad{
+    padding-left:100px;
+    
+    
+ }
+#fotpad-2{
+    text-align: right;
+    padding-left:800px ;
+}
+.icon{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  .icon-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.icon img{
+    width: 16px;
+}
+.icon-2 img{
+    width: 16px;
+}
+
+  
