@@ -33,6 +33,7 @@ margin-top:70px;
     width: 400px;
 height: 300px;
 flex-shrink: 0;
+margin-bottom: 50px;
 }
 p{
     font-family: none;
@@ -40,41 +41,96 @@ p{
 .red{
     color: #F00;
 }
-.banner-2{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.banner-2 img{
-    max-width: 100%;
-    height: auto;
-    margin-top: 40px;
-    filter: brightness(0.4);
+    #discount{
     
-}
-.banner-text-2{
-    position: absolute;
-     top:50%;
-}
-#color{
-    color: #FFF;
-}
-.btn{
-    background-color: black;
-    color: #FFF;
 text-align: center;
-font-size: 12px;
+font-family: Inter;
+font-size: 80px;
 font-style: normal;
+font-weight: 700;
 line-height: normal;
-border: 0px;  
-background: transparent; 
 
     
 }
-/* eta niye kichu question achey =1  */
+
+
+
+ .mid_night_party_wrapper {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-image: url("Vectorrr\ \(1\).png");
+    background-repeat: no-repeat;
+    padding-top: 100px; 
+     padding-bottom: 100px; 
+    position: relative;
+    background-size: cover;
+    margin-bottom: 100px;
+    filter: brightness(0.4);
+}
+
+.mid_night_party {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+    
+}
+
+.gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0vw;
+}
+
+.mid_night_party button {
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    padding-left: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.text-part {
+    width: 73%;
+    z-index: 10;
+}
+
+.text-part h1{
+    line-height: 80px;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+}
+
+.text-part p{
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.midnight-party-2024{
+    width: 27%;
+}
+.midnight-party-2024 img{
+    width: 100%;
+    z-index: 10;
+}
+ 
+
+
+
 .div-back{
-background-color: snow;
+ background-color: snow; 
+
  width: 1320px;
  height: 482px;
  flex-shrink: 0;
@@ -102,10 +158,10 @@ margin-bottom: 100px;
 .things-3{
     display: flex;
     margin: 0px 250px;
-    /* justify-content: space-around; */
+    
     align-items: center;
     width: 1600px;
-/* height: 7335px; */
+
 background: #FFF;
 width: 1320px;
     
@@ -126,27 +182,83 @@ border: 8px solid red;
     margin-left: 150px;
 }
 
-/* eta niye kichu question achey=1  */
-.new{
-    width: 1320px;
-    background: #FFF;
-    height: 200px;
-    margin-top: 70px;
+
+
+.holiday_sales {
     display: block;
- justify-content: center;
-align-items: center;
-text-align: center;
-border-radius: 5%;
-margin-bottom: 100px;
-/* border: 10px solid red; */
-margin-left: 250px;
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+    margin-bottom: 100px;
 }
-.font{
- font-size: 45px; 
-font-style: normal;
+
+.holiday_sales p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.holiday_sales h1 {
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    margin-top: 0px;
+}
+
+.holiday_sales article {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    color: gray;
+    margin-bottom: 4vw;
+    font-size: 20px;
+}
+
+.holiday_sales div {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+}
+
+.gift_box {
+    width: 65%;
+    z-index: 2;
+}
+
+.excited_girl {
+    width: 35%;
+    z-index: 0;
+}
+
+.holiday_sales .red_section {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: red;
+    height: 15vw;
+    z-index: 1;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.discount {
+    width: 16vw;
+    height: 16vw;
+    position: absolute;
+    z-index: 10;
+    left: 43vw;
+    top: 20vw;
+}
 
 
-}
+
+
+
 .pictures{
     margin-top: 70px;
     margin-left: 250px;
@@ -155,7 +267,7 @@ font-style: normal;
 }
 .img-3{
     display: flex;
-    /* justify-content: space-around; */
+    
 }
 .img-3 img{
     width: 350px;
@@ -186,7 +298,7 @@ flex-shrink: 0;
 .subs{
     
     display: flex;
-  /* justify-content: space-between;  */
+  
      align-items: center; 
     text-align: center;
     margin-left:500px;
@@ -219,48 +331,47 @@ flex-shrink: 0;
 
 
 /* Footer Styles */
-footer{
-    display: flex;
-    background: black;
-    
-    
-    gap: 100px;
-    color: #FFF;
+
+
+
+footer {
     width: 100%;
-height: 400px;
-flex-shrink: 0;
+    background-color: black;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
- 
-.foot{ 
-     width: 100%;
- } 
- #fotpad{
-    padding-left:100px;
-    
-    
- }
-#fotpad-2{
-    text-align: right;
-    padding-left:800px ;
+footer>div {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    color: white;
 }
-.icon{
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-  .icon-2{
+
+footer>div>div {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-   
+    border-bottom: 0.2px solid rgb(32, 32, 32);
+    padding-bottom: 30px;
 }
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-top: 50px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
 .icon img{
     width: 16px;
 }
 .icon-2 img{
     width: 16px;
-}
-
+} 
   
